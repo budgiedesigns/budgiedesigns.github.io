@@ -1,0 +1,48 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("../fonts/JetBrainsMono-Regular.woff2");
+}
+
+@font-face {
+    font-family: "Gerbera";
+    src: url("../fonts/Gerbera-Medium.woff2");
+}
+
+@font-face{
+    font-family: "Lora";
+    src: url("../fonts/Lora-Latin-Regular.woff2");
+}
+
+
+@font-face{
+    font-family: "Inconsolata";
+    src: url("../fonts/Inconsolata-LatinExt-Regular.woff2");
+}
+
+@font-face{
+    font-family: "NotoSans";
+    src: url("../fonts/Noto-Sans-Latin-Regular.woff2");
+}
+
+
+$monospace: "Inconsolata", "JetBrainsMono", Monaco, Consolas, "Lucida Console", monospace !default;
+$sans-serif: "NotoSans", "Gerbera", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$serif: "Lora", Georgia, Times, serif !default;
+
+
+$global-font-family: $serif !default;
+$header-font-family: $monospace !default;
+$caption-font-family: $sans-serif !default;
+$masthead-font-family: $serif !default;
+$sidebar-font-family: $monospace !default;
+$title-font-family: $monospace !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
