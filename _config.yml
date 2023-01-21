@@ -16,9 +16,7 @@
 title: Experiments
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Pragun Goyal's blog about his experiments with engineering and life.
 # twitter_username: username
 github_username: pragun
 # minimal_mistakes_skin: aqua
@@ -61,7 +59,7 @@ plugins:
 author:
   name   : "Pragun Goyal"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Welcome to my log of experiments with engineering and life."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -93,10 +91,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
