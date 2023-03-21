@@ -13,12 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Experiments
+title: BudgieDesigns
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Pragun Goyal's blog about his experiments with engineering and life.
+  Pragun Goyal & Richard Whalley
+  100 Main St. Delhi, NY 13753
+  
 # twitter_username: username
-github_username: pragun
+github_username: budgiedesigns
 # minimal_mistakes_skin: aqua
 search: true
 
@@ -57,20 +59,11 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name   : "Pragun Goyal"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Welcome to my log of experiments with engineering and life."
+  name   : "Pragun Goyal & Richard Whalley"
+  avatar : ""
+  bio    : "Welcome to our blog"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://pragun.github.io"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/pragun"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/zozo.pepe/"
-
+  
 #footer:
 #  links:
 #    - label: "Twitter"
